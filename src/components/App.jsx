@@ -13,7 +13,7 @@ function App(){
     const [movies, setMovies] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
 
-    const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=e0a204e4';
+    const API_URL = 'https://www.omdbapi.com/?i=tt3896198&apikey=e0a204e4';
 
 
     const searchMovies = async (title)=>{
